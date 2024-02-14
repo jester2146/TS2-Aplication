@@ -68,7 +68,7 @@ body{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    height: 720px;
+    height: 680px;
 }
 
 .L-content{
@@ -97,10 +97,109 @@ body{
     color: white;
 }
 
-.chat-up::before{
-    content: '';
+.row{
+    display: flex;
+    margin-top: 35px;
     height: 197px;
-    width: 20px;
-    background-color: currentColor;
+    width: 1px;
+    background-color: white;
 }
 
+.L-down-content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 300px;
+}
+
+.chat-down{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    max-width: 478px;
+    max-height: 105px;
+    margin-top: 80px;
+    padding-right: 35px;
+    color: white;
+}
+
+.img2{
+    margin-left: 20px;
+    width: 379px;
+    height: 271px;
+}
+
+.R-content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.R-L-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img3{
+    width: 321px;
+    height: 261px;
+    left: 200px;
+    margin-left: 40px;
+}
+
+.row_2{
+    width: 299px;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.chat-left{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    width: 392px;
+    height: 200px;
+}
+
+.R-R-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img4{
+    width: 333px;
+    height: 260px;
+}
+
+.chat-right{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    width: 392px;
+    height: 236px;
+}
+
+footer{
+    display: flex;
+    max-width: 100%;
+    height: 91px;
+    background-color: #242424;
+    align-items: center;
+}
+
+.ts2{
+    display: block;
+    width: 162px;
+    height: 58px;
+    margin: 0 auto;
+}
